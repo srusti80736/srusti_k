@@ -1,0 +1,12 @@
+import pandas as pd
+
+l = [1, 2, 3]
+s = pd.Series(l)
+print(s)
+data = {"Name": ["Srusti", "Bavya", "Akshata"],
+        "Age": [19, 18, 21],
+        "Study": ["BTECH", "CSE", "DOCTOR"]}
+
+df = pd.DataFrame(data)
+print("DataFrame:")
+print(df)
